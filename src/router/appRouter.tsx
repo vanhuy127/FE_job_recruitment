@@ -7,11 +7,11 @@ import { LoadingIndicator } from '@/components/shared/loadingIndicator';
 import { LOCAL_STORAGE_KEY } from '@/constants';
 import GlobalRoutes from '@/router/global';
 import PrivateRoutes from '@/router/private';
+import { useAuthService } from '@/service/auth.service';
 import { useAuthStore } from '@/store';
 import { getLocalStorage } from '@/utils';
 
 import OnLyNotAuthRoutes from './onlyNotAuth';
-import { useAuthService } from '@/service/auth.service';
 
 export const AppRouter = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);

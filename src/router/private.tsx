@@ -35,8 +35,7 @@ const PrivateRoutes: RouteObject[] = [
         <AdminLayout />
       </PrivateRoute>
     ),
-    children: [
-    ],
+    children: [],
   },
 ];
 

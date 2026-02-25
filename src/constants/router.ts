@@ -14,6 +14,9 @@ export const ROUTE_PATH = {
       },
     },
   },
+  USER: {
+    HOME: '/',
+  },
   NOT_FOUND: '*',
   UNAUTHORIZE: '/unauthorized',
 };

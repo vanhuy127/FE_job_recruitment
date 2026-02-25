@@ -20,7 +20,7 @@ export const END_POINT = {
       DETAILS: (id: string) => `/admin/company/${id}`,
     },
     JOBS: {
-      LIST: '/admin/jobs',
+      LIST: '/jobs',
       DETAILS: (id: string) => `/admin/job/${id}`,
     },
     SKILL: {
