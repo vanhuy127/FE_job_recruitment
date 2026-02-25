@@ -38,35 +38,41 @@ export const GENDER = {
 };
 
 export const JOB_TYPE = {
-  FULL_TIME: 'FULL_TIME',
-  PART_TIME: 'PART_TIME',
-  INTERNSHIP: 'INTERNSHIP',
-  FREELANCE: 'FREELANCE',
-  REMOTE: 'REMOTE',
+  full_time: 'full_time',
+  part_time: 'part_time',
+  contract: 'contract',
 };
 
 export const JOB_TYPE_SHOWS = {
-  [JOB_TYPE.FULL_TIME]: 'Full time',
-  [JOB_TYPE.PART_TIME]: 'Part time',
-  [JOB_TYPE.INTERNSHIP]: 'Internship',
-  [JOB_TYPE.FREELANCE]: 'Freelance',
-  [JOB_TYPE.REMOTE]: 'Remote',
+  [JOB_TYPE.full_time]: 'Full time',
+  [JOB_TYPE.part_time]: 'Part time',
+  [JOB_TYPE.contract]: 'Contract',
 };
 
-export const JOB_LEVEL = {
-  INTERN: 'INTERN',
-  FRESHER: 'FRESHER',
-  JUNIOR: 'JUNIOR',
-  MID: 'MID',
-  SENIOR: 'SENIOR',
-  LEAD: 'LEAD',
+export const LOCATION_TYPE = {
+  IN_OFFICE: 'IN_OFFICE',
+  REMOTE: 'REMOTE',
+  HYBRID: 'HYBRID',
 };
 
-export const JOB_LEVEL_SHOWS = {
-  [JOB_LEVEL.INTERN]: 'Intern',
-  [JOB_LEVEL.FRESHER]: 'Fresher',
-  [JOB_LEVEL.JUNIOR]: 'Junior',
-  [JOB_LEVEL.MID]: 'Mid',
-  [JOB_LEVEL.SENIOR]: 'Senior',
-  [JOB_LEVEL.LEAD]: 'Lead',
+export const LOCATION_TYPE_SHOWS = {
+  [LOCATION_TYPE.IN_OFFICE]: 'In office',
+  [LOCATION_TYPE.REMOTE]: 'Remote',
+  [LOCATION_TYPE.HYBRID]: 'Hybrid',
+};
+
+export const APPLY_STATUS = {
+  UNDER_REVIEW: 'UNDER_REVIEW',
+  INTERVIEWING: 'INTERVIEWING',
+  OFFERING: 'OFFERING',
+  EMAIL_SENT: 'EMAIL_SENT',
+  REJECTED: 'REJECTED',
+};
+
+export const APPLY_STATUS_SHOWS = {
+  [APPLY_STATUS.UNDER_REVIEW]: 'Under review',
+  [APPLY_STATUS.INTERVIEWING]: 'Interviewing',
+  [APPLY_STATUS.OFFERING]: 'Offering',
+  [APPLY_STATUS.EMAIL_SENT]: 'Email sent',
+  [APPLY_STATUS.REJECTED]: 'Reject',
 };
