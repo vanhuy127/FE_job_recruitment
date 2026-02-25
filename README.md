@@ -1,24 +1,10 @@
-# 🚀 Project Base - React + Vite + TypeScript
-
-Một project base bao gồm các thư viện:
-
-- Vite
-- React
-- TypeScript
-- TailwindCSS
-- ShadCN UI
-- React Query
-- Zustand
-- React Hook Form + Zod
-- Router với phân quyền (Public, Private, AuthOnly)
-
----
+# 🚀FE job recruitment
 
 ## 📦 Cài đặt
 
 ```bash
-git clone https://github.com/vanhuy127/Project-Base.git
-cd project-base
+git clone https://github.com/vanhuy127/FE_job_recruitment.git
+cd FE_job_recruitment
 yarn install
 yarn dev
 ```
