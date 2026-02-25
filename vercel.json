@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/eazymock/:path*",
+      "destination": "https://api.eazymock.net/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

@@ -81,7 +81,7 @@ const Header = () => {
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="center" className="min-w-30">
                   <DropdownMenuLabel className="text-center">
-                    Xin chào, {user.userName ? user.userName : 'user'}
+                    Xin chào, {user.email ? user.email : 'user'}
                   </DropdownMenuLabel>
                   <DropdownMenuSeparator />
                   {userMenuItems[user.role].map((item) => (

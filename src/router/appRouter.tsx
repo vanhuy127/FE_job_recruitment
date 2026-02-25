@@ -4,12 +4,10 @@ import { useRoutes } from 'react-router-dom';
 
 import { LoadingIndicator } from '@/components/shared/loadingIndicator';
 
-import { LOCAL_STORAGE_KEY } from '@/constants';
 import GlobalRoutes from '@/router/global';
 import PrivateRoutes from '@/router/private';
 import { useAuthService } from '@/service/auth.service';
 import { useAuthStore } from '@/store';
-import { getLocalStorage } from '@/utils';
 
 import OnLyNotAuthRoutes from './onlyNotAuth';
 
@@ -20,8 +18,7 @@ export const AppRouter = () => {
 
   const initAuth = async () => {
     try {
-      const token = getLocalStorage(LOCAL_STORAGE_KEY.ACCESS_TOKEN);
-      if (token && !user) {
+      if (!user) {
         await getMe();
       }
     } finally {

@@ -15,7 +15,7 @@ const OnLyNotAuthRoute = React.memo(({ children }: { children: React.ReactNode }
   const { user } = useAuthStore();
   if (user?.role === ROLE.ADMIN) return <Navigate to={ROUTE_PATH.ADMIN.DASHBOARD} />;
   if (user?.role === ROLE.USER) return <Navigate to={ROUTE_PATH.USER.HOME} />;
-  if (user?.role === ROLE.COMPANY) return <Navigate to={ROUTE_PATH.COMPANY.DASHBOARD} />;
+  // if (user?.role === ROLE.COMPANY) return <Navigate to={ROUTE_PATH.COMPANY.DASHBOARD} />;
 
   return <>{children}</>;
 });
